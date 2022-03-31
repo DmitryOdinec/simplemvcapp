@@ -31,7 +31,7 @@ public class OrderController {
 	}
 	
 	@RequestMapping(value = "/add_new_order", method = RequestMethod.POST)
-	public String AddNewOrder(@RequestParam(value="title") String title, 
+	public String addNewOrder(@RequestParam(value="title") String title, 
 							  @RequestParam(value="price") Double price) {
 		Order order = new Order();
 		order.setTitle(title);
