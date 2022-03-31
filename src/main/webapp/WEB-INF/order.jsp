@@ -35,7 +35,9 @@
 		 <tr>
 			 <td>${order.title}</td>
 			 <td>${order.price}</td>
-			 <td></td>
+			 <td>
+			 	<a href="delete/${order.id}">Delete this item</a>
+		 	</td>
 		 </tr>
 		 </c:forEach>
 	</table>

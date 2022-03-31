@@ -7,7 +7,7 @@
 	<title>Insert title here</title>
 </head>
 <body>
-	<form action="/add_new_order" method="POST">
+	<form action="add_new_order" method="POST">
 		<label>Title</label>
 		<input type="text" name="title">
 		<label>Price</label>
